@@ -34,12 +34,12 @@ const lookup = {
 function rot13(encodedStr) {
   let decodedArr = ""; // Your Result goes here
   // Only change code below this line
-	for(let index=0; index<encodedStr.length; index++){
+	for(let index=0; index < encodedStr.length; index++){
 		if(encodedStr[inex]>="A" && encodedStr[index]<="Z"){
 			decodedArr +=lookup[encodedStr[inex]];
 		}
 		else{
-			decodedArr +=encodedStr[inex];
+			decodedArr +=encodedStr[index];
 		}
 	}
 
